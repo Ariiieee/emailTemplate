@@ -8,9 +8,9 @@ const StatementEmail = () => {
 					<style>
 						{`@font-face {
 							font-family:"Gordita";
-							src: url('/assets/fonts/GroditaMedium.woff')
+							src: url('https://vccloud.blob.core.windows.net/omnipayblob/email-assets/GroditaMedium.woff')
 							format('woff'),
-							url('/assets/fonts/GroditaRegular.woff')
+							url('https://vccloud.blob.core.windows.net/omnipayblob/email-assets/GroditaRegular.woff')
 							format('woff');
 							
 						}`}
