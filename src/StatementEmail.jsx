@@ -24,12 +24,12 @@ const StatementEmail = () => {
 						padding: "0",
 						boxSizing: "border-box",
 						backgroundColor: "#fff",
-						height: "100vh",
+						minHeight: "100vh",
 					}}
 				>
 					<main
 						style={{
-							padding: "64px 32px 64px 32px",
+							padding: "48px 24px 32px 24px",
 							margin: "0 auto",
 							maxWidth: "640px",
 						}}
@@ -47,7 +47,7 @@ const StatementEmail = () => {
 								style={{
 									margin: "0px",
 									textAlign: "center",
-									padding: "32px 0px 32px 0",
+									padding: "24px 0px 24px 0",
 									objectFit: "contain",
 									width: "145px",
 								}}
@@ -61,8 +61,8 @@ const StatementEmail = () => {
 						</div>
 						<div
 							style={{
-								padding: "32px",
-								marginTop: "32px",
+								padding: "24px",
+
 								fontSize: "16px",
 								lineHeight: "32px",
 							}}
@@ -81,7 +81,7 @@ const StatementEmail = () => {
 							</p>
 							<p
 								style={{
-									marginTop: "32px",
+									marginTop: "12px",
 									fontFamily: "Gordita",
 									fontWeight: "500",
 									fontSize: "16px",
@@ -93,7 +93,7 @@ const StatementEmail = () => {
 						</div>
 						<div
 							style={{
-								paddingTop: "143px",
+								paddingTop: "100px",
 								display: "flex",
 								flexDirection: "column",
 								justifyContent: "center",
@@ -172,12 +172,10 @@ const StatementEmail = () => {
 							<div
 								style={{
 									display: "flex",
-
 									justifyContent: "center",
 									alignItems: "center",
 									width: "20px",
 									height: "20px",
-
 									objectFit: "contain",
 								}}
 							>
