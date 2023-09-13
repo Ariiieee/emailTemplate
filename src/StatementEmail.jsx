@@ -61,8 +61,7 @@ const StatementEmail = () => {
 						</div>
 						<div
 							style={{
-								padding: "24px",
-
+								padding: "16px",
 								fontSize: "16px",
 								lineHeight: "32px",
 							}}
@@ -93,13 +92,12 @@ const StatementEmail = () => {
 						</div>
 						<div
 							style={{
-								paddingTop: "100px",
+								paddingTop: "16px",
 								display: "flex",
 								flexDirection: "column",
 								justifyContent: "center",
 								alignItems: "center",
 								color: "#101828",
-
 								fontWeight: "500",
 								lineHeight: "24px",
 							}}
