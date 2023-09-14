@@ -294,21 +294,28 @@ const StatementEmail = () => {
 							style={{
 								padding: "16px",
 								fontSize: "16px",
-								lineHeight: "32px",
+								lineHeight: "24px",
 
 							}}
 						>
 							<p>
-								Dear Customer
+								Dear Customer,
+								<br />
 								<br />
 								Your wallet account statement for selected time
-								period is now available (see attached).
+								period
+								is now available (see attached).
+								<br />
 								<br />
 								If you did not initiate this request, please
 								change your PIN.
 								<br />
+								<br />
 								For any feedback or enquiries, please call
-								support on 08000900999
+								support on 08000900999.
+								<br />
+								<br />
+
 							</p>
 							<p
 								style={{
